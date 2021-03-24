@@ -7,8 +7,7 @@ const details = require("./details.json");
 
 const app = express();
 
-const admin = require('firebase-admin');
-admin.initializeApp();
+
 
 
 
