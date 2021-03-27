@@ -25,5 +25,5 @@ app.listen(port, function() {
   app.post('/setvalue',function(req,res){
       priceValue=req.body.price;
       res.json(priceValue);
-    //  console.log(req.body);
+    //  console.log(req.body");
   })
